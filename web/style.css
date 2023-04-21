@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+#title{
+    margin-top: 3vh;
+    height: 7vh;
+    text-align: center;
+    line-height: 7vh;
+    font-size: 60px;
+}
+#column{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+.detail{
+    width: 30vw;
+    height: 35vh;
+    background-color: rgb(235, 220, 198);
+}
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    width: 80%;
+    margin:  5% 10% 0 10%;
+    height: 15%;
+    border-radius: 16px;
+}
+
+.chart{
+    display: flex;
+    justify-content: center;
+    height: 70%;
+}
+
+#canvas{
+    height: 100% !important;
+}
